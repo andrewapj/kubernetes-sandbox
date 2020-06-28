@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.andrewapj.k8s.sandbox</groupId>
 	<artifactId>formatterservice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>formatterservice</name>
 	<description>A Formatter Service</description>
 

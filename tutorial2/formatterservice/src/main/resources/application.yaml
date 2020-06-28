@@ -1,4 +1,4 @@
 app:
   timeHost: ${timeHost:localhost}
   timeHostPort: ${timeHostPort:8080}
-  timeHostPath: ${timeHostPath:/time}}
+  timeHostPath: ${timeHostPath:/time}
