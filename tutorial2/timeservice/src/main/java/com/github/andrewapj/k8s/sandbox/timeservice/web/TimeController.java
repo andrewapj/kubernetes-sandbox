@@ -1,6 +1,6 @@
-package com.github.andrewapj.todoapi.timeservice.web;
+package com.github.andrewapj.k8s.sandbox.timeservice.web;
 
-import com.github.andrewapj.todoapi.timeservice.domain.TimeResponse;
+import com.github.andrewapj.k8s.sandbox.timeservice.domain.TimeResponse;
 import java.time.Clock;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

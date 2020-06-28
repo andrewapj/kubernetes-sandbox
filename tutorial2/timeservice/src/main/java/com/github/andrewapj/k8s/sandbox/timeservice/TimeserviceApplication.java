@@ -1,4 +1,4 @@
-package com.github.andrewapj.todoapi.timeservice;
+package com.github.andrewapj.k8s.sandbox.timeservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

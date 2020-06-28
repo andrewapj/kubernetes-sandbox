@@ -1,4 +1,4 @@
-package com.github.andrewapj.todoapi.timeservice;
+package com.github.andrewapj.k8s.sandbox.timeservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

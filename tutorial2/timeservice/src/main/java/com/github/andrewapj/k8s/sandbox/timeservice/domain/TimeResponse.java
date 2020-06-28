@@ -1,4 +1,4 @@
-package com.github.andrewapj.todoapi.timeservice.domain;
+package com.github.andrewapj.k8s.sandbox.timeservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

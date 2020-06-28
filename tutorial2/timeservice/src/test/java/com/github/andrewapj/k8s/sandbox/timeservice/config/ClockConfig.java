@@ -1,4 +1,4 @@
-package com.github.andrewapj.todoapi.timeservice.config;
+package com.github.andrewapj.k8s.sandbox.timeservice.config;
 
 import java.time.Clock;
 import java.time.LocalDateTime;

@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.andrewapj.todoapi</groupId>
 	<artifactId>timeservice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>timeservice</name>
 	<description>A Simple Time Service</description>
 
