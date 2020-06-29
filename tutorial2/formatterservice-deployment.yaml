@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: formatter-deployment
+  labels:
+    name: formatter-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: formatter-service
+  template:
+    metadata:
+      labels:
+        app: formatter-service
+    spec:
+      containers:
+        - name: formatterservice
+          image: formatterservice:1.0
+          ports:
+            - containerPort: 8080
+          env:
+            - name: timeHost
+              value: timeservice-service
+            - name: timeHostPort
+              value: "80"
+            - name: timeHostPath
+              value: /time

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: formatter-service
+  labels:
+    name: formatter-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: formatter-service
+  ports:
+    - port: 80
+      name: http
+      targetPort: 8080
